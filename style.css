@@ -17,7 +17,8 @@ body {
 .header-line {
     padding-top: 50px;
     display: flex;
-    align-items: center
+    align-items: center;
+    justify-content: space-around;
 }
 
 .nav-item {
@@ -27,6 +28,12 @@ body {
     font-size: 14px;
 
     margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #FF7400;
 }
 
 .cart {
@@ -41,4 +48,40 @@ body {
     top: 18px;
     right: 7px;
 
+}
+
+.num {
+    color: #FFFFFF;
+    text-decoration: none;
+
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #FF7400;
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #c44837;
 }
